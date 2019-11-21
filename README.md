@@ -77,8 +77,8 @@ e.g.
  2. To cleanly integrate the InsightFace code and allow future extensions I use the factory method pattern for model selection. 
 
 
-## Challenges 
- 1. For few images MTCNN code seems to fail (stacking of bounding boxes), I didn't get sufficient time to fix this.
+## Learnings/TODO 
+ 1. For few images MTCNN code seems to fail (stacking of bounding boxes), I need to fix/handle this.
  2. By reducing minimum face size, performance improves however a large number of faces still tend to get missed. 
  This is in part due to different nuisance factors which hinder visibility of the faces such as occlusion and variational lighting.  
 
